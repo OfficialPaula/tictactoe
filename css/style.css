@@ -1,0 +1,74 @@
+/* Set font family and text alignment for the entire page */
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the header tag with a particular font size and margin */
+  h2 {
+    margin: 10px;
+    font-size: 35px;
+    margin: 10px;
+  }
+  
+  /* Define a flex container that centers its contents both horizontally and vertically */
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Set the flex container to align its children in columns rather than rows */
+  .flex-column {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  /* Set the flex container to drop down once it reaches max-width */
+  .flex-wrap {
+    flex-wrap: wrap;
+    height: 432px;
+    width: 432px;
+  }
+  
+  /* Style the square class with a border and dimensions */
+  .square {
+    border: 2px solid rgba(0, 0, 0, .75);
+    height: 140px;
+    width: 140px;
+  }
+  
+  /* Style the reset button with a border, dimensions, and text alignment */
+  #reset-button {
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid black;
+    height: 55px;
+    width: 100px;
+    margin: 10px;
+  }
+  
+  footer {
+    background: linear-gradient(to bottom, #0077c2, #00588e);
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Style the square class with a box shadow and transition effect */
+  .square {
+    border: 2px solid rgba(0, 0, 0, .75);
+    height: 140px;
+    width: 140px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+    transition: all .2s ease-in-out;
+  }
+  
+  /* Add a hover effect to the square class */
+  .square:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, .5);
+    border-color: rgba(255, 0, 0, .75);
+  }
+  
